@@ -1,0 +1,39 @@
+.home_header {
+  .home_nav {
+    background-color: $bg_color;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    .home_list {
+      display: flex;
+      column-gap: 50px;
+      align-items: center;
+      .home_item {
+        .home_link {
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 140%;
+          color: #ffffff;
+        }
+      }
+      .nav_btn {
+        display: flex;
+        column-gap: 12px;
+        align-items: center;
+        padding: 19px 30px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 140%;
+        color: #ffffff;
+        border-radius: 20px;
+        background-color: $btn_color;
+        border: none;
+        img {
+          width: 20px;
+          height: 20px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,100 @@
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/Work_Sans/static/WorkSans-Light.ttf") format("truetype");
+  font-weight: 300; }
+
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/Work_Sans/static/WorkSans-Regular.ttf") format("truetype");
+  font-weight: 400; }
+
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/Work_Sans/static/WorkSans-Medium.ttf") format("truetype");
+  font-weight: 500; }
+
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/Work_Sans/static/WorkSans-SemiBold.ttf") format("truetype");
+  font-weight: 600; }
+
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/Work_Sans/static/WorkSans-Bold.ttf") format("truetype");
+  font-weight: 700; }
+
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/Work_Sans/static/WorkSans-ExtraBold.ttf") format("truetype");
+  font-weight: 800; }
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0; }
+
+body {
+  font-family: "Work Sans", sans-serif; }
+
+ul {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0px; }
+
+.home_header .home_nav {
+  background-color: #2b2b2b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 20px 50px; }
+  .home_header .home_nav .home_list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 50px;
+    column-gap: 50px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .home_header .home_nav .home_list .home_item .home_link {
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 140%;
+      color: #ffffff; }
+    .home_header .home_nav .home_list .nav_btn {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-column-gap: 12px;
+      column-gap: 12px;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      padding: 19px 30px;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 140%;
+      color: #ffffff;
+      border-radius: 20px;
+      background-color: #a259ff;
+      border: none; }
+      .home_header .home_nav .home_list .nav_btn img {
+        width: 20px;
+        height: 20px; }
