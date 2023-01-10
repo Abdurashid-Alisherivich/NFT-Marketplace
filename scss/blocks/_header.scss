@@ -15,6 +15,9 @@
           font-size: 16px;
           line-height: 140%;
           color: #ffffff;
+          &:hover {
+            color: orangered;
+          }
         }
       }
       .nav_btn {

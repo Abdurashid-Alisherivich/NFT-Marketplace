@@ -78,6 +78,8 @@ p {
       font-size: 16px;
       line-height: 140%;
       color: #ffffff; }
+      .home_header .home_nav .home_list .home_item .home_link:hover {
+        color: orangered; }
     .home_header .home_nav .home_list .nav_btn {
       display: -webkit-box;
       display: -ms-flexbox;
