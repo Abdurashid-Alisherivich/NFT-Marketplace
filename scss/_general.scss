@@ -1,17 +1,22 @@
 * {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
+
 body {
-  font-family: "Work Sans", sans-serif;
+    font-family: "Work Sans", sans-serif;
 }
+
 ul {
-  list-style: none;
+    list-style: none;
 }
+
 a {
-  text-decoration: none;
+    text-decoration: none;
+    color: inherit;
 }
+
 h1,
 h2,
 h3,
@@ -19,5 +24,5 @@ h4,
 h5,
 h6,
 p {
-  margin: 0px;
+    margin: 0px;
 }
