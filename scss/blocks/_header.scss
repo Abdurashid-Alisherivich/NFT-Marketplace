@@ -35,5 +35,57 @@
         }
       }
     }
+    .hamburger {
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 375px) {
+  .home_header {
+    .home_nav {
+      background-color: $bg_color;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 30px;
+      .home_list {
+        display: none;
+      }
+      .hamburger {
+        display: block;
+        position: relative;
+        .home_burger_nav_list {
+          display: none;
+        }
+        &:hover {
+          .home_burger_nav_list {
+            position: absolute;
+            top: 24px;
+            right: 24px;
+            display: block;
+            box-shadow: 0px 0px 10px black;
+            background-color: orange;
+            width: 120px;
+            ul {
+              display: flex;
+              flex-direction: column;
+              row-gap: 10px;
+              padding: 10px;
+              button {
+                padding: 5px 10px;
+                background-color: $btn_color;
+                color: white;
+                border: none;
+                border-radius: 15px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              }
+            }
+          }
+        }
+      }
+    }
   }
 }
