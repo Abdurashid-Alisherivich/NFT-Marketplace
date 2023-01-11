@@ -84,10 +84,10 @@
 
 .tags_types {
     padding-top: 20px;
+    display: flex;
 }
 
 .tags_button {
-    display: flex;
     padding: 12px 30px;
     background: #3B3B3B;
     border-radius: 20px;
@@ -168,7 +168,7 @@
         line-height: 140%;
     }
     .tags_types {
-        display: block;
+        display: grid;
         padding: 0;
     }
     .tags_button {
@@ -225,6 +225,7 @@
         line-height: 140%;
     }
     .tags_types {
+        display: grid;
         padding: 0;
     }
     .tags_button {
