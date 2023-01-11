@@ -1,0 +1,218 @@
+.main_section .main_container .container_row .placeholder {
+    position: relative;
+}
+
+.main_section {
+    background: #2B2B2B;
+}
+
+.main_section .main_container .container_row .placeholder .placeholder_avater {
+    position: absolute;
+    top: 316px;
+    left: 115px;
+    background: url(Keemun_man_avatar_2d_colorful_illustration_f9463786-5b0e-41d9-bbe1-e3fba5ab0a75.png);
+    border-radius: 20px;
+}
+
+.animaked-part .buttons .romb-button {
+    background-color: #A259FF;
+    border-radius: 20px;
+    padding: 19px 20px 19px 23px;
+}
+
+.animaked-part .buttons {
+    margin-right: 90px;
+}
+
+.animaked-part .buttons .btn {
+    border-radius: 20px;
+    padding: 19px 30px 19px 23px;
+    border-style: solid;
+    border-color: #A259FF;
+}
+
+.animaked-part .buttons .btn p {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.animaked-part {
+    padding-top: 90px;
+    gap: 460px;
+    margin-left: 30px;
+}
+
+.animaked-part h2 {
+    font-weight: 600;
+    font-size: 51px;
+    line-height: 110%;
+    /* or 56px */
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    /* White */
+    color: #FFFFFF;
+}
+
+.animaked-part .buttons .romb-buuton p {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.statistics {
+    gap: 100px;
+    margin-left: 119px;
+    margin-top: 30px;
+}
+
+.statistics h4 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 140%;
+    /* or 39px */
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    /* White */
+    color: #FFFFFF;
+}
+
+.statistics p {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+    /* or 35px */
+    text-transform: capitalize;
+    /* White */
+    color: #FFFFFF;
+}
+
+.bio h5 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 160%;
+    /* or 35px */
+    text-transform: capitalize;
+    color: #858584;
+}
+
+.bio {
+    margin-top: 30px;
+    margin-left: 119px;
+}
+
+.bio p {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+    /* or 35px */
+    text-transform: capitalize;
+    /* White */
+    color: #FFFFFF;
+}
+
+.lincks {
+    margin-top: 30px;
+    margin-left: 119px;
+    padding-bottom: 30px;
+}
+
+.lincks p {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 160%;
+    /* or 35px */
+    text-transform: capitalize;
+    color: #858584;
+}
+
+.lincks .link_all {
+    color: #858584;
+}
+
+@media screen and (max-width: 768px) {
+    .main_section .main_container .container_row .placeholder .placeholder_img img {
+        width: 834px;
+        height: 280px;
+    }
+    .main_section .main_container .container_row .placeholder .placeholder_avater {
+        top: 210px;
+        left: 72px;
+    }
+    .animaked-part {
+        gap: 30px;
+        margin-left: 72px;
+    }
+    .animaked-part .animaked h2 {
+        font-weight: 600;
+        font-size: 38px;
+        line-height: 120%;
+        /* identical to box height, or 46px */
+        display: flex;
+        align-items: center;
+        text-transform: capitalize;
+        /* White */
+        color: #FFFFFF;
+    }
+    .statistics {
+        margin-left: 72px;
+        gap: 25px;
+    }
+    .statistics p {
+        width: 156px;
+    }
+    .bio {
+        margin-left: 72px;
+    }
+    .lincks {
+        margin-left: 72px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .main_section .main_container .container_row .placeholder .placeholder_img img {
+        width: 375px;
+        height: 250px;
+    }
+    .main_section .main_container .container_row .placeholder .placeholder_avater {
+        top: 56px;
+        left: 180px;
+        top: 190px;
+    }
+    .animaked-part {
+        gap: 30px;
+        margin-left: 30px;
+    }
+    .animaked-part .animaked h2 {
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 140%;
+        /* or 39px */
+        display: flex;
+        align-items: center;
+        text-transform: capitalize;
+        /* White */
+        color: #FFFFFF;
+    }
+    .statistics {
+        margin-left: 30px;
+        gap: 5px;
+    }
+    .statistics p {
+        width: 156px;
+    }
+    .bio {
+        margin-left: 30px;
+    }
+    .lincks {
+        margin-left: 30px;
+    }
+}
