@@ -7,9 +7,8 @@
 }
 
 .main_section .main_container .container_row .placeholder .placeholder_avater {
-    position: absolute;
-    top: 316px;
-    left: 115px;
+    margin-top: -60px;
+    margin-left: 110px;
     background: url(Keemun_man_avatar_2d_colorful_illustration_f9463786-5b0e-41d9-bbe1-e3fba5ab0a75.png);
     border-radius: 20px;
 }
@@ -42,8 +41,8 @@
 
 .animaked-part {
     padding-top: 90px;
-    gap: 460px;
-    margin-left: 30px;
+    /* gap: 460px; */
+    margin-left: 114px;
 }
 
 .animaked-part h2 {
@@ -164,7 +163,7 @@
     }
     .statistics {
         margin-left: 72px;
-        gap: 25px;
+        gap: 2px;
     }
     .statistics p {
         width: 156px;
@@ -204,15 +203,27 @@
     }
     .statistics {
         margin-left: 30px;
-        gap: 5px;
+        justify-content: center;
+        /* gap: 5px; */
     }
     .statistics p {
-        width: 156px;
+        width: 126px;
     }
     .bio {
         margin-left: 30px;
     }
     .lincks {
         margin-left: 30px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .statistics {
+        margin-left: 20px;
+        justify-content: center;
+        /* gap: 5px; */
+    }
+    .statistics p {
+        width: 100px;
     }
 }
