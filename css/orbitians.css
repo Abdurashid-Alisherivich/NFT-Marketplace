@@ -139,6 +139,133 @@
     color: #FFFFFF;
 }
 
+.more_from_artist_artist .row_artists .this_artist h3 {
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 120%;
+    /* identical to box height, or 46px */
+    text-transform: capitalize;
+    /* White */
+    color: #FFFFFF;
+}
+
+.row_artists {
+    padding: 120px 0 74px 0;
+}
+
+.go_to_artist_page {
+    border-radius: 20px;
+    padding: 13px 36px 13px 38px;
+    border-style: solid;
+    border-color: #A259FF;
+}
+
+.go_to_artist_page h5 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.row_artist_card {
+    gap: 60px;
+    padding-bottom: 80px;
+}
+
+.row_artist_card_tablet {
+    gap: 60px;
+    padding-bottom: 80px;
+}
+
+.row_artists_all .card_info {
+    padding: 20px 30px;
+}
+
+.row_artist_card_tablet {
+    display: none!important;
+}
+
+.row_artist_card_mobile {
+    display: none!important;
+}
+
+.card_one {
+    background: #3B3B3B;
+    border-radius: 20px;
+}
+
+.foxy_life h4 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 140%;
+    /* identical to box height, or 31px */
+    text-transform: capitalize;
+    /* White */
+    color: #FFFFFF;
+}
+
+.orbitian_avatar h5 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    /* White */
+    color: #FFFFFF;
+}
+
+.price_highest_bid {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 110%;
+    /* or 13px */
+    color: #858584;
+}
+
+.eth163weth {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    /* White */
+    color: #FFFFFF;
+}
+
+.first_three {
+    gap: 30px;
+}
+
+@media screen and (max-width: 834px) {
+    .row_artist_card {
+        display: none!important;
+    }
+    .row_artist_card_tablet {
+        display: block!important;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .row_artists {
+        display: none!important;
+    }
+    .row_artist_card {
+        display: none!important;
+    }
+    .row_artist_card_tablet {
+        display: none!important;
+    }
+    .row_artist_card_mobile {
+        display: flex!important;
+        flex-direction: column!important;
+        gap: 30px!important;
+        padding-bottom: 80px;
+    }
+    .this_artist {
+        text-align: center;
+    }
+}
+
 @media screen and (min-width: 481px) and (max-width: 768px) {
     .orbitians_info {
         max-width: 370px;
