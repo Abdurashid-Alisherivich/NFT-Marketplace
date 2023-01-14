@@ -9,6 +9,9 @@
     font-weight: 400;
     font-size: 16px;
     color: $text_color-footer;
+    a:hover {
+        color: #ffffff;
+    }
     &__desc {
         max-width: 233px;
         h4 {
