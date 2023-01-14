@@ -1,364 +1,452 @@
+/* header-nav */
+
+.home_header .home_nav {
+  background-color: #2b2b2b;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+}
+.home_header .home_nav .home_list {
+  display: flex;
+  column-gap: 50px;
+  align-items: center;
+}
+.home_header .home_nav .hamburger {
+  display: none;
+}
+.home_header .home_nav .home_list .home_item .home_link {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  color: #ffffff;
+}
+.home_header .home_nav .home_list .nav_btn {
+  display: flex;
+  column-gap: 12px;
+  align-items: center;
+  padding: 19px 30px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  color: #ffffff;
+  border-radius: 20px;
+  background-color: #a259ff;
+  border: none;
+}
+.home_header .home_nav .home_list .nav_btn img {
+  width: 20px;
+  height: 20px;
+}
+
+/* ====================================================== */
+
 .orbitians__container {
-    background: #2B2B2B;
-    color: #FFFFFF;
-    font-family: 'Work Sans', sans-serif;
+  background: #2b2b2b;
+  color: #ffffff;
+  font-family: "Work Sans", sans-serif;
 }
 
 .orbitians_info .deadline_card {
-    display: none;
+  display: none;
 }
 
 .orbitians_info {
-    max-width: 605px;
+  max-width: 605px;
 }
 
 .orbitians_main_img {
-    width: 100vw;
+  width: 100vw;
 }
 
 .orbitians__section {
-    display: flex;
-    padding: 40px 0;
+  display: flex;
+  padding: 40px 0;
 }
 
 .info_title_part h1 {
-    font-weight: 600;
-    font-size: 51px;
-    line-height: 110%;
+  font-weight: 600;
+  font-size: 51px;
+  line-height: 110%;
 }
 
 .info_title_part p {
-    padding-top: 10px;
-    color: #858584;
-    font-size: 22px;
-    line-height: 35px;
+  padding-top: 10px;
+  color: #858584;
+  font-size: 22px;
+  line-height: 35px;
 }
 
 .info_author_part,
 .info_description_part,
 .info_details_part,
 .info_tags_part {
-    padding-top: 30px;
+  padding-top: 30px;
 }
 
 .author_part_title,
 .desc_title,
 .details_title {
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 160%;
-    color: #858584;
-    font-family: 'Space Mono', monospace;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 160%;
+  color: #858584;
+  font-family: "Space Mono", monospace;
 }
 
 .author_name_part {
-    padding-top: 10px;
-    column-gap: 12px;
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 140%;
+  padding-top: 10px;
+  column-gap: 12px;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 140%;
 }
 
 .desc__text {
-    padding-top: 10px;
-    font-size: 22px;
-    line-height: 160%;
+  padding-top: 10px;
+  font-size: 22px;
+  line-height: 160%;
 }
 
 .details_references {
-    padding-top: 10px;
-    font-size: 22px;
-    line-height: 160%;
+  padding-top: 10px;
+  font-size: 22px;
+  line-height: 160%;
 }
 
 .info_details_link {
-    column-gap: 10px;
+  column-gap: 10px;
 }
 
 .tags_title {
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 140%;
-    color: #858584;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 140%;
+  color: #858584;
 }
 
 .tags_types {
-    padding-top: 20px;
-    display: flex;
+  padding-top: 20px;
+  display: flex;
 }
 
 .tags_button {
-    padding: 12px 30px;
-    background: #3B3B3B;
-    border-radius: 20px;
-    text-transform: uppercase;
-    color: white;
-    border: none;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 140%;
+  padding: 12px 30px;
+  background: #3b3b3b;
+  border-radius: 20px;
+  text-transform: uppercase;
+  color: white;
+  border: none;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
 }
 
 .tags_button:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .deadline_card {
-    font-family: 'Space Mono', monospace;
-    padding: 30px;
-    width: 295px;
-    background: #3B3B3B;
-    border-radius: 20px;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 110%;
+  font-family: "Space Mono", monospace;
+  padding: 30px;
+  width: 295px;
+  background: #3b3b3b;
+  border-radius: 20px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 110%;
 }
 
 .digital_clock {
-    padding-top: 10px;
-    font-weight: 700;
-    font-size: 38px;
-    line-height: 120%;
+  padding-top: 10px;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 120%;
 }
 
 .digital_clock_texts {
-    padding-top: 5px;
+  padding-top: 5px;
 }
 
 .deadline_button {
-    margin-top: 30px;
-    width: 100%;
-    padding: 20px;
-    background: #A259FF;
-    border-radius: 20px;
-    border: none;
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 140%;
-    color: #FFFFFF;
+  margin-top: 30px;
+  width: 100%;
+  padding: 20px;
+  background: #a259ff;
+  border-radius: 20px;
+  border: none;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  color: #ffffff;
 }
 
 .more_from_artist_artist .row_artists .this_artist h3 {
-    font-weight: 600;
-    font-size: 38px;
-    line-height: 120%;
-    /* identical to box height, or 46px */
-    text-transform: capitalize;
-    /* White */
-    color: #FFFFFF;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 120%;
+  /* identical to box height, or 46px */
+  text-transform: capitalize;
+  /* White */
+  color: #ffffff;
 }
 
 .row_artists {
-    padding: 120px 0 74px 0;
+  padding: 120px 0 74px 0;
 }
 
 .go_to_artist_page {
-    border-radius: 20px;
-    padding: 13px 36px 13px 38px;
-    border-style: solid;
-    border-color: #A259FF;
+  border-radius: 20px;
+  padding: 13px 36px 13px 38px;
+  border-style: solid;
+  border-color: #a259ff;
 }
 
 .go_to_artist_page h5 {
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 140%;
-    /* or 22px */
-    text-align: center;
-    color: #FFFFFF;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+  text-align: center;
+  color: #ffffff;
 }
 
 .row_artist_card {
-    gap: 60px;
-    padding-bottom: 80px;
+  gap: 60px;
+  padding-bottom: 80px;
 }
 
 .row_artist_card_tablet {
-    gap: 60px;
-    padding-bottom: 80px;
+  gap: 60px;
+  padding-bottom: 80px;
 }
 
 .row_artists_all .card_info {
-    padding: 20px 30px;
+  padding: 20px 30px;
 }
 
 .row_artist_card_tablet {
-    display: none!important;
+  display: none !important;
 }
 
 .row_artist_card_mobile {
-    display: none!important;
+  display: none !important;
 }
 
 .card_one {
-    background: #3B3B3B;
-    border-radius: 20px;
+  background: #3b3b3b;
+  border-radius: 20px;
 }
 
 .foxy_life h4 {
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 140%;
-    /* identical to box height, or 31px */
-    text-transform: capitalize;
-    /* White */
-    color: #FFFFFF;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 140%;
+  /* identical to box height, or 31px */
+  text-transform: capitalize;
+  /* White */
+  color: #ffffff;
 }
 
 .orbitian_avatar h5 {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 140%;
-    /* or 22px */
-    /* White */
-    color: #FFFFFF;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+  /* White */
+  color: #ffffff;
 }
 
 .price_highest_bid {
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 110%;
-    /* or 13px */
-    color: #858584;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 110%;
+  /* or 13px */
+  color: #858584;
 }
 
 .eth163weth {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 140%;
-    /* or 22px */
-    /* White */
-    color: #FFFFFF;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+  /* White */
+  color: #ffffff;
 }
 
 .first_three {
-    gap: 30px;
+  gap: 30px;
 }
 
 @media screen and (max-width: 834px) {
-    .row_artist_card {
-        display: none!important;
-    }
-    .row_artist_card_tablet {
-        display: block!important;
-    }
+  .row_artist_card {
+    display: none !important;
+  }
+  .row_artist_card_tablet {
+    display: block !important;
+  }
 }
 
 @media screen and (max-width: 375px) {
-    .row_artists {
-        display: none!important;
-    }
-    .row_artist_card {
-        display: none!important;
-    }
-    .row_artist_card_tablet {
-        display: none!important;
-    }
-    .row_artist_card_mobile {
-        display: flex!important;
-        flex-direction: column!important;
-        gap: 30px!important;
-        padding-bottom: 80px;
-    }
-    .this_artist {
-        text-align: center;
-    }
+  .row_artists {
+    display: none !important;
+  }
+  .row_artist_card {
+    display: none !important;
+  }
+  .row_artist_card_tablet {
+    display: none !important;
+  }
+  .row_artist_card_mobile {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 30px !important;
+    padding-bottom: 80px;
+  }
+  .this_artist {
+    text-align: center;
+  }
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
-    .orbitians_info {
-        max-width: 370px;
-    }
-    .orbitians__section {
-        padding: 40px 15px;
-    }
-    .info_title_part h1 {
-        font-size: 38px;
-        line-height: 120%;
-    }
-    .info_title_part p {
-        font-size: 16px;
-        line-height: 140%;
-    }
-    .author_part_title,
-    .tags_title,
-    .author_name_part,
-    .desc_title,
-    .desc__text,
-    .details_title {
-        font-weight: 400;
-        font-size: 16px;
-    }
-    .details_references {
-        font-size: 16px;
-        line-height: 140%;
-    }
-    .tags_types {
-        display: grid;
-        padding: 0;
-    }
-    .tags_button {
-        margin-top: 20px;
-    }
+  .orbitians_info {
+    max-width: 370px;
+  }
+  .orbitians__section {
+    padding: 40px 15px;
+  }
+  .info_title_part h1 {
+    font-size: 38px;
+    line-height: 120%;
+  }
+  .info_title_part p {
+    font-size: 16px;
+    line-height: 140%;
+  }
+  .author_part_title,
+  .tags_title,
+  .author_name_part,
+  .desc_title,
+  .desc__text,
+  .details_title {
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .details_references {
+    font-size: 16px;
+    line-height: 140%;
+  }
+  .tags_types {
+    display: grid;
+    padding: 0;
+  }
+  .tags_button {
+    margin-top: 20px;
+  }
 }
 
 @media screen and (max-width: 480px) {
-    .orbitians_info {
-        max-width: 100%;
-    }
-    .orbitians_info .deadline_card {
-        display: block;
-        margin-top: 20px;
-        font-family: 'Space Mono', monospace;
-        padding: 30px;
-        width: 100%;
-        background: #3B3B3B;
-        border-radius: 20px;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 110%;
-    }
-    .orbitians__section {
-        display: block;
-        padding: 40px 30px
-    }
-    .info_title_part h1 {
-        font-size: 28px;
-        line-height: 140%;
-    }
-    .info_title_part p {
-        font-size: 16px;
-        line-height: 140%;
-    }
-    .info_author_part,
-    .info_details_part,
-    .info_tags_part {
-        padding-top: 20px;
-    }
-    .author_name_part {
-        font-weight: 400;
-        font-size: 16px;
-    }
-    .desc_title,
-    .desc__text,
-    .author_part_title,
-    .details_title,
-    .details_references,
-    .tags_title,
-    .tags_button {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 140%;
-    }
-    .tags_types {
-        display: grid;
-        padding: 0;
-    }
-    .tags_button {
-        margin-top: 20px;
-    }
-    .orbitians_deadline {
-        display: none;
-    }
+  .orbitians_info {
+    max-width: 100%;
+  }
+  .orbitians_info .deadline_card {
+    display: block;
+    margin-top: 20px;
+    font-family: "Space Mono", monospace;
+    padding: 30px;
+    width: 100%;
+    background: #3b3b3b;
+    border-radius: 20px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 110%;
+  }
+  .orbitians__section {
+    display: block;
+    padding: 40px 30px;
+  }
+  .info_title_part h1 {
+    font-size: 28px;
+    line-height: 140%;
+  }
+  .info_title_part p {
+    font-size: 16px;
+    line-height: 140%;
+  }
+  .info_author_part,
+  .info_details_part,
+  .info_tags_part {
+    padding-top: 20px;
+  }
+  .author_name_part {
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .desc_title,
+  .desc__text,
+  .author_part_title,
+  .details_title,
+  .details_references,
+  .tags_title,
+  .tags_button {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+  }
+  .tags_types {
+    display: grid;
+    padding: 0;
+  }
+  .tags_button {
+    margin-top: 20px;
+  }
+  .orbitians_deadline {
+    display: none;
+  }
 }
+/* ============================================
+navbar responsive */
+
+@media screen and (min-width: 350px) and (max-width: 1000px) {
+  .home_header .home_nav {
+    background-color: #2b2b2b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+  }
+  .home_header .home_nav .home_list {
+    display: none;
+  }
+  .home_header .home_nav .hamburger {
+    display: block;
+    position: relative;
+  }
+  .home_burger_nav_list {
+    display: none;
+  }
+  .home_header .home_nav .hamburger:hover .home_burger_nav_list {
+    display: block;
+    position: absolute;
+    right: 24px;
+  }
+  .home_header .home_nav .hamburger:hover .home_burger_nav_list ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px black;
+    padding: 10px 15px;
+  }
+  .home_header .home_nav .hamburger:hover .home_burger_nav_list ul button {
+    border: none;
+    background: #a259ff;
+    border-radius: 20px;
+    height: 30px;
+    width: 100px;
+    color: white;
+  }
+}
+
+/* ============================================= */
