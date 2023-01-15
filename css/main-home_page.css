@@ -1,0 +1,10 @@
+.main .space_walking .container .row {
+  border: 1px solid red;
+  height: 200px;
+  width: 80%;
+}
+.main .space_walking .container .row h1 {
+  color: red;
+}
+
+/*# sourceMappingURL=main-home_page.css.map */
