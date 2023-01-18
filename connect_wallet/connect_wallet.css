@@ -1,0 +1,120 @@
+main {
+    background: #2B2B2B;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.connect__wallet_main {
+    column-gap: 60px;
+    display: flex;
+}
+
+.wallet__section {
+    padding-right: 30px;
+}
+
+.banner__section {
+    width: 45vw;
+    height: 90vh;
+}
+
+.main__banner {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.wallet__title {
+    padding-top: 100px;
+    font-weight: 600;
+    font-size: 51px;
+    line-height: 110%;
+}
+
+.wallet__desc {
+    padding-top: 20px;
+    max-width: 460px;
+    font-size: 22px;
+    line-height: 160%;
+}
+
+.wallet__box {
+    padding-top: 40px;
+    row-gap: 20px;
+}
+
+.wallet__box button {
+    display: flex;
+    max-width: 320px;
+    padding: 16px 40px;
+    align-items: center;
+    column-gap: 20px;
+    border: 1px solid #A259FF;
+    border-radius: 20px;
+    background: #3B3B3B;
+}
+
+.wallet__box button:hover {
+    background: #1e1e1e;
+}
+
+.wallet__box button p {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .connect__wallet_main {
+        column-gap: 40px;
+    }
+    .wallet__section {
+        padding-right: 15px;
+    }
+    .wallet__title {
+        padding-top: 80px;
+        font-size: 38px;
+        line-height: 120%;
+    }
+    .wallet__desc {
+        max-width: 325px;
+        font-size: 16px;
+        line-height: 140%;
+    }
+    .wallet__box button {
+        padding: 14px 40px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .connect__wallet_main {
+        column-gap: 0px;
+        display: block;
+    }
+    .wallet__section {
+        padding: 30px 30px 40px;
+    }
+    .banner__section {
+        width: 100vw;
+        height: 100%;
+    }
+    .wallet__title {
+        padding: 0;
+        font-size: 38px;
+        line-height: 120%;
+    }
+    .wallet__desc {
+        padding-top: 20px;
+        max-width: 480px;
+        font-size: 16px;
+        line-height: 140%;
+    }
+    .wallet__box {
+        padding-top: 30px;
+    }
+    .wallet__box button {
+        max-width: 100%;
+        padding: 14px 40px;
+    }
+}
