@@ -1,0 +1,193 @@
+.index__creator--bg {
+    background: $bg_color;
+}
+
+.index__creator {
+    font-family: "Work Sans", sans-serif !important;
+    color: $text_color-bg-bgcolor;
+    padding: 80px 0;
+    gap: 60px;
+    .in__cre__title {
+        div {
+            gap: 10px;
+            h2 {
+                font-weight: 600;
+                font-size: 38px;
+                line-height: 120%;
+            }
+            p {
+                font-weight: 400;
+                font-size: 22px;
+                line-height: 160%;
+            }
+        }
+        button {
+            border: 2px solid #A259FF;
+            border-radius: 20px;
+            width: 247px;
+            height: 60px;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 140%;
+            background-color: unset;
+            color: $text_color-bg-bgcolor;
+            gap: 12px;
+            i {
+                color: #A259FF;
+                font-size: 20px;
+            }
+        }
+    }
+    .in__cre__wrapper--card {
+        gap: 31px;
+        line-height: 140%;
+        .in__cre__card {
+            width: 240px;
+            height: 238px;
+            background: $bg_color-recently;
+            padding: 20px;
+            border-radius: 20px;
+            gap: 20px;
+            .in__cre__span {
+                position: absolute;
+                top: 20px;
+                left: 20px;
+                background-color: $bg_color;
+                font-size: 16px;
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+                color: #858584;
+            }
+            .in__cre__text {
+                gap: 5px;
+                h4 {
+                    font-weight: 600;
+                    font-size: 22px;
+                }
+                p {
+                    font-size: 16px;
+                    span {
+                        color: #858584;
+                    }
+                }
+            }
+        }
+    }
+    .in__cre__button--mobile {
+        width: 100%;
+        height: 60px;
+        border: 2px solid #A259FF;
+        border-radius: 20px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 140%;
+        background-color: unset;
+        color: $text_color-bg-bgcolor;
+        gap: 12px;
+        i {
+            color: #A259FF;
+            font-size: 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .index__creator {
+        padding: 40px 0;
+        gap: 40px;
+        .in__cre__title {
+            div {
+                gap: 10px;
+                h2 {
+                    font-size: 28px;
+                }
+                p {
+                    font-size: 16px;
+                }
+            }
+        }
+        .in__cre__wrapper--card {
+            .in__cre__card {
+                width: 330px;
+                height: 100px;
+                .in__cre__span {
+                    top: 13px;
+                    left: 12px;
+                }
+                .in__cre__wrapper--img {
+                    img {
+                        width: 60px;
+                        height: 60px;
+                    }
+                }
+                .in__cre__text {
+                    p {
+                        padding-right: 20px;
+                        font-size: 16px;
+                        span {
+                            color: #858584;
+                        }
+                    }
+                }
+            }
+        }
+        .in__cre__card--tablet {
+            display: none !important;
+        }
+        .in__cre__button--mobile {
+            width: 330px !important;
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .index__creator {
+        padding: 40px 30px;
+        gap: 40px;
+        .in__cre__title {
+            div {
+                gap: 10px;
+                h2 {
+                    font-size: 28px;
+                }
+                p {
+                    font-size: 16px;
+                }
+            }
+        }
+        .in__cre__wrapper--card {
+            gap: 20px;
+            .in__cre__card {
+                width: 100%;
+                height: 100px;
+                .in__cre__span {
+                    top: 13px;
+                    left: 12px;
+                }
+                .in__cre__wrapper--img {
+                    img {
+                        width: 60px;
+                        height: 60px;
+                    }
+                }
+                .in__cre__text {
+                    p {
+                        padding-right: 20px;
+                        font-size: 16px;
+                        span {
+                            color: #858584;
+                        }
+                    }
+                }
+            }
+        }
+        .in__cre__card--mobil,
+        .in__cre__card--tablet {
+            display: none !important;
+        }
+        .in__cre__button--mobile {
+            width: 100% !important;
+        }
+    }
+}

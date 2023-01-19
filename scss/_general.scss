@@ -4,8 +4,12 @@
     margin: 0;
 }
 
+button {
+    cursor: pointer;
+}
+
 body {
-    font-family: "Work Sans", sans-serif;
+    font-family: "Work Sans", sans-serif !important;
 }
 
 ul {
@@ -13,7 +17,12 @@ ul {
 }
 
 a {
+    cursor: pointer;
     text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
     color: inherit;
 }
 
