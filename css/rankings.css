@@ -1,0 +1,252 @@
+/* top-creators */
+
+.rankings {
+    background: #2B2B2B;
+}
+
+.row_topcreator {
+    padding: 80px 0 80px 0;
+    gap: 20px;
+}
+
+.row_topcreator h1 {
+    font-weight: 600;
+    font-size: 51px;
+    line-height: 110%;
+    /* or 56px */
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    /* White */
+    color: #FFFFFF;
+}
+
+.row_topcreator p {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+    /* or 35px */
+    /* White */
+    color: #FFFFFF;
+}
+
+.time_column {
+    gap: 0px;
+}
+
+.time_today {
+    padding: 14.5px 0px;
+    background: #2B2B2B;
+    border: none;
+    width: 276px;
+}
+
+.time_today p {
+    /* width: 267px; */
+}
+
+.time_today {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 140%;
+    /* identical to box height, or 31px */
+    text-align: center;
+    text-transform: capitalize;
+    /* Caption & Label Text */
+    color: #858584;
+}
+
+.time_today:hover {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 140%;
+    /* identical to box height, or 31px */
+    text-align: center;
+    text-transform: capitalize;
+    /* White */
+    color: #FFFFFF;
+}
+
+.time_today {
+    position: relative;
+    /* padding: 50px 0; */
+}
+
+.time_today::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    right: 50%;
+    width: 0;
+    height: 2px;
+    background: white;
+}
+
+.time_today:hover::after {
+    left: 0;
+    right: 0;
+    width: 100%;
+    transition: 1s;
+}
+
+
+/* top-creators */
+
+
+/* row-table */
+
+.row_table {
+    padding: 52px 0px;
+    gap: 20px;
+}
+
+.table_tr {
+    border-style: solid;
+    border: 2px solid #3B3B3B;
+    border-radius: 20px;
+    background: #2B2B2B;
+    padding: 16px 80px 16px 27px;
+    max-width: 1050px;
+    max-height: 84px;
+    gap: 20px;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    /* Caption & Label Text */
+    color: #858584;
+}
+
+.table_tr2 {
+    border-style: solid;
+    border: 2px solid #3B3B3B;
+    border-radius: 20px;
+    background: #3B3B3B;
+    padding: 16px 80px 16px 27px;
+    max-width: 1050px;
+    max-height: 84px;
+    gap: 20px;
+    font-family: 'Space Mono';
+}
+
+.table_artist {
+    width: 460px;
+}
+
+.table_change {
+    width: 140px;
+}
+
+.table_nft_sold {
+    width: 190px;
+}
+
+.table_volume {}
+
+.table_circle_number {
+    background: #2B2B2B;
+    border-radius: 20px;
+    padding: 4px 10px 4px 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* Caption & Label Text */
+    color: #858584;
+    margin-left: -10px;
+}
+
+.jaydoneks {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 140%;
+    /* identical to box height, or 31px */
+    text-transform: capitalize;
+    color: #FFFFFF!important;
+    width: 321px;
+}
+
+.table_change2 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    /* Green */
+    color: #00AC4F;
+    width: 160px;
+    margin-left: 34px;
+    margin-right: -20px;
+}
+
+.table_nft_sold2 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    /* Text */
+    color: #FFFFFF;
+    width: 190px;
+}
+
+.table_volume2 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    /* Text */
+    color: #FFFFFF;
+}
+
+.row .row_table_rankings_tablet {
+    display: none!important;
+}
+
+.row .time_view_tablet {
+    display: none!important;
+}
+
+.row .row_table_rankings_mobile {
+    display: none!important;
+}
+
+
+/* row-table */
+
+
+/* responsive */
+
+@media screen and (min-width: 834px) and (max-width:1199px) {
+    .row .row_table {
+        display: none!important;
+    }
+    .container .row .row_table_rankings_tablet {
+        display: flex!important;
+        flex-direction: column!important;
+        padding: 52px 0px!important;
+        gap: 20px!important;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 833px) {
+    .time_view {
+        display: none!important;
+    }
+    .row .row_table {
+        display: none!important;
+    }
+    .row .time_view_tablet {
+        display: block!important;
+    }
+    .container .row .row_table_rankings_mobile {
+        display: flex!important;
+        flex-direction: column!important;
+        padding: 52px 0px!important;
+        gap: 20px!important;
+    }
+}
