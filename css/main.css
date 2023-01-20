@@ -30,8 +30,7 @@
 }
 @font-face {
   font-family: "Work Sans";
-  src: url("../fonts/Work_Sans/static/WorkSans-ExtraBold.ttf")
-    format("truetype");
+  src: url("../fonts/Work_Sans/static/WorkSans-ExtraBold.ttf") format("truetype");
   font-weight: 800;
   font-style: normal;
 }
@@ -47,8 +46,6 @@ body {
 
 ul {
   list-style: none;
-  margin: 0;
-  padding: 0;
 }
 
 a {
@@ -78,9 +75,6 @@ p {
   column-gap: 50px;
   align-items: center;
 }
-.home_header .home_nav .hamburger {
-  display: none;
-}
 .home_header .home_nav .home_list .home_item .home_link {
   font-weight: 600;
   font-size: 16px;
@@ -105,53 +99,8 @@ p {
   height: 20px;
 }
 
-/* ============================================================= */
-
-@media screen and (min-width: 350px) and (max-width: 1000px) {
-  .home_header .home_nav {
-    background-color: #2b2b2b;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 30px;
-  }
-  .home_header .home_nav .home_list {
-    display: none;
-  }
-  .home_header .home_nav .hamburger {
-    display: block;
-    position: relative;
-  }
-  .home_burger_nav_list {
-    display: none;
-  }
-  .home_header .home_nav .hamburger:hover .home_burger_nav_list {
-    display: block;
-    position: absolute;
-    right: 24px;
-  }
-  .home_header .home_nav .hamburger:hover .home_burger_nav_list ul {
-    display: flex;
-    flex-direction: column;
-    row-gap: 10px;
-    background-color: #ffffff;
-    box-shadow: 0px 0px 10px black;
-    padding: 10px 15px;
-  }
-  .home_header .home_nav .hamburger:hover .home_burger_nav_list ul button {
-    border: none;
-    background: #a259ff;
-    border-radius: 20px;
-    height: 30px;
-    width: 100px;
-    color: white;
-  }
-}
-
-/* ============================================================= */
-
 .footer__bg {
-  background: #3b3b3b;
+  background: #3B3B3B;
   padding: 40px 0;
 }
 
@@ -160,7 +109,7 @@ p {
   line-height: 140%;
   font-weight: 400;
   font-size: 16px;
-  color: #cccccc;
+  color: #CCCCCC;
 }
 .footer a:hover {
   color: #ffffff;
@@ -188,7 +137,7 @@ p {
   font-weight: 700;
   font-size: 22px;
   line-height: 160%;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 .footer__links div {
   margin-top: 25px;
@@ -198,7 +147,7 @@ p {
   max-width: 420px;
 }
 .footer__email h4 {
-  color: #ffffff;
+  color: #FFFFFF;
   font-weight: 400;
   font-size: 16px;
 }
@@ -235,8 +184,7 @@ p {
 }
 
 @media screen and (max-width: 992px) {
-  .footer__links,
-  .footer__email {
+  .footer__links, .footer__email {
     margin-top: 30px;
   }
 }
@@ -255,7 +203,7 @@ p {
     margin: 0;
   }
   .footer__email form input,
-  .footer__email form button {
+.footer__email form button {
     width: 100%;
     height: 46px !important;
     border-radius: 20px;
@@ -264,7 +212,7 @@ p {
 }
 .art__line--before {
   height: 1px;
-  background-color: #3b3b3b;
+  background-color: #3B3B3B;
 }
 
 .art__line--after {
@@ -277,7 +225,7 @@ p {
 }
 
 .art__wrapper--bg {
-  background-color: #3b3b3b;
+  background-color: #3B3B3B;
 }
 
 .art__pro {
@@ -294,14 +242,14 @@ p {
   font-size: 16px;
 }
 .art__pro .art__filter button span {
-  color: #ffffff;
+  color: #FFFFFF;
   font-size: 16px;
-  background: #3b3b3b;
+  background: #3B3B3B;
   border-radius: 20px;
   padding: 5px 10px;
 }
 .art__pro .art__filter button:hover {
-  color: #ffffff;
+  color: #FFFFFF;
 }
 .art__pro .art__filter button:hover span {
   background-color: #858584;
@@ -331,9 +279,9 @@ p {
   padding: 0;
   width: 330px;
   height: 469px;
-  background: #2b2b2b;
+  background: #2B2B2B;
   border-radius: 20px;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 .art__pro .art__wrapper--card .art__card .art__img--card {
   max-width: 100%;
@@ -376,6 +324,4 @@ p {
   .art__pro .art__wrapper--card {
     padding: 80px 30px;
   }
-}
-
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
