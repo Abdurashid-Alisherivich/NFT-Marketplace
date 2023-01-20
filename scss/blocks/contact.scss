@@ -24,13 +24,13 @@ body {
               border: 1px solid white;
               background: #1e1e1e;
               color: white;
+              padding-left: 32px;
               &::placeholder {
                 font-family: "Inter";
                 font-style: normal;
                 font-weight: 300;
                 font-size: 20px;
                 line-height: 24px;
-                padding-left: 32px;
                 color: #ffffff;
               }
             }
