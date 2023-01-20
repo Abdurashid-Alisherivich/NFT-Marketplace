@@ -1,0 +1,88 @@
+.work__bg {
+    background: $bg_color;
+}
+
+.work {
+    padding: 80px 0;
+    gap: 48px;
+    color: $text_color-bg-bgcolor;
+    font-family: "Work Sans", sans-serif !important;
+    &__title {
+        gap: 10px;
+        h2 {
+            font-weight: 600;
+            font-size: 38px;
+            line-height: 120%;
+        }
+        p {
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 160%;
+        }
+    }
+    &__wrapper--card {
+        gap: 30px;
+        .work__card {
+            max-width: 330px;
+            padding: 10px 30px 30px 30px;
+            line-height: 140%;
+            border-radius: 20px;
+            background-color: $bg_color-recently;
+            gap: 20px;
+            h4 {
+                font-size: 22px;
+                font-weight: 600;
+            }
+            p {
+                margin-top: 10px;
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .work {
+        padding: 40px 0;
+        gap: 40px;
+        &__title {
+            h2 {
+                font-size: 28px;
+            }
+            p {
+                font-size: 16px;
+            }
+        }
+        &__wrapper--card {
+            .work__card {
+                img {
+                    width: 160px;
+                    height: 160px;
+                }
+                h4 {
+                    font-size: 16px;
+                }
+                p {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .work {
+        padding: 40px 30px;
+        &__wrapper--card {
+            gap: 20px;
+            .work__card {
+                padding: 20px;
+                max-width: 100%;
+                img {
+                    max-width: 100px;
+                    height: 100px;
+                }
+            }
+        }
+    }
+}

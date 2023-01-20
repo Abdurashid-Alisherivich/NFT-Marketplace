@@ -1,0 +1,165 @@
+.digest__bg {
+    padding-top: 40px;
+    padding-bottom: 80px;
+    background: $bg_color;
+}
+
+.digest {
+    background: $bg_color-recently;
+    padding: 60px;
+    font-family: "Work Sans", sans-serif !important;
+    color: $text_color-bg-bgcolor;
+    border-radius: 20px;
+    gap: 80px;
+    &__img {
+        max-width: 425px;
+        max-height: 310px;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    &__content {
+        max-width: 425px;
+        h1 {
+            font-weight: 600;
+            font-size: 38px;
+            line-height: 120%;
+        }
+        p {
+            margin-top: 10px;
+            font-size: 22px;
+            line-height: 160%;
+        }
+        form {
+            margin-top: 40px;
+            width: 100%;
+            height: 60px;
+            gap: 12px;
+            border: none;
+            background: #FFFFFF;
+            border-radius: 20px;
+            input {
+                color: $text_color-bg-bgcolor;
+                margin-left: 20px;
+                font-size: 16px;
+                line-height: 140%;
+                color: #2B2B2B;
+                background: unset;
+                border: none;
+                outline: none;
+            }
+            button {
+                border: none;
+                color: $text_color-bg-bgcolor;
+                gap: 12px;
+                height: 100%;
+                width: 211px;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 140%;
+                background: #A259FF;
+                border-radius: 20px;
+                i {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .digest {
+        padding: 40px 30px;
+        gap: 30px;
+        &__img {
+            border-radius: 20px;
+            overflow: hidden;
+            max-width: 300px;
+            height: auto;
+            img {
+                width: unset;
+                height: 280px;
+            }
+        }
+        &__content {
+            max-width: 300px;
+            h1 {
+                font-size: 28px;
+            }
+            p {
+                font-size: 16px;
+            }
+            form {
+                margin-top: 40px;
+                height: 60px;
+                background: unset;
+                gap: 16px;
+                input {
+                    width: 100%;
+                    min-height: 46px;
+                    margin-left: unset;
+                    padding: 0 20px;
+                    color: #2B2B2B;
+                    background: unset;
+                    border-radius: 20px;
+                    background-color: #FFFFFF;
+                }
+                button {
+                    min-height: 46px;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .digest__bg {
+        padding: 0;
+    }
+    .digest {
+        background: unset;
+        padding: 40px 30px;
+        &__img {
+            border-radius: 20px;
+            overflow: hidden;
+            max-width: 100%;
+            min-height: unset;
+            img {
+                width: 100%;
+                height: unset;
+            }
+        }
+        &__content {
+            max-width: 100%;
+            h1 {
+                font-size: 28px;
+            }
+            p {
+                font-size: 16px;
+            }
+            form {
+                height: auto !important;
+                margin-top: 40px;
+                height: 60px;
+                background: unset;
+                gap: 16px;
+                input {
+                    width: 100%;
+                    min-height: 46px;
+                    margin-left: unset;
+                    padding: 0 20px;
+                    color: #2B2B2B;
+                    background: unset;
+                    border-radius: 20px;
+                    background-color: #FFFFFF;
+                }
+                button {
+                    min-height: 46px;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
